@@ -133,7 +133,7 @@
                                             <outlet property="usernameLabel" destination="ebG-D9-0uK" id="dEq-Xu-ak6"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="QZy-ca-tPs" customClass="CommentCell" customModule="insta" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="QZy-ca-tPs" customClass="CommentCell" customModule="insta" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="379" width="414" height="33.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QZy-ca-tPs" id="vfM-OA-mgY">

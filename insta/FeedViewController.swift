@@ -71,7 +71,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         comment["post"] = selectedPost
         comment["author"] = PFUser.current()!
         
-        selectedPost.add(comment, forKey: "Comments")
+        selectedPost.add(comment, forKey: "comments")
         
         selectedPost.saveInBackground { (success, error) in
             if success{
@@ -130,7 +130,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             let comment = comments[indexPath.row-1]
             cell.namelabel.text = comment["author"] as? String
-            cell.commentLabel.text = comment["comment"] as? String
+            cell.commentLabel.text = comment["text"] as? String
             
             return cell
         }else{
